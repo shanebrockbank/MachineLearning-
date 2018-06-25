@@ -1,5 +1,5 @@
 from scipy.spatial import distance
-
+import numpy
 def euc(a,b):
     return distance.euclidean(a,b)
 
